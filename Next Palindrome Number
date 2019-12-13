@@ -17,7 +17,7 @@ Solution:
 
 def palindrome(numbers):
   number1=numbers+1
-  while(True):
+  while(True):## to run the loop till the infinite tmes we will use condition while(True) or any other condition which will return true
     if str(number1)==(str(number1)[::-1]):
       return number1
     else:
